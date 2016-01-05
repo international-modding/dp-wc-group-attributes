@@ -20,6 +20,7 @@
 * -- 16: option(year of build)
 *
 * example: wpdp_
+* ours: dpwcga_ , dirk peeters woocommerce group attributes _
 */
 
 /* Hint:
@@ -72,3 +73,18 @@
 /* 8. Admin pages */
 
 /* 9. Settings */
+
+/* test stuff */
+if ( $wcActive == true ) // our previous wc check
+{ 
+    // if true run the code
+    function dpwcga_myFunction()
+    {
+        //do stuff
+    }
+    // create the attribute group
+    function dpwcga_create_aGroup()
+    {
+        //do stuff
+    }
+} 
